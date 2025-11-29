@@ -22,7 +22,14 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Path alliases */
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["./components"],
+      "screens": ["./screens"]
+    }
   },
   "include": ["src"]
 }
