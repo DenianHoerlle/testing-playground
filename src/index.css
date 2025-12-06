@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  /* OVERWRITE */
+  --default-transition-duration: 270ms;
+
+  /* COLORS */
+  --color-smith-blue: #adc8fa;
+  --color-jessie-purple: #a119b0;
+  --color-confirm: #349937;
+  --color-cancel: #696969;
+  --color-error: #c91e1e;
+}
+
+body {
+  @apply bg-smith-blue;
+}
