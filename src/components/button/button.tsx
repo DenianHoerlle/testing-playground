@@ -1,7 +1,6 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
-export interface ButtonPropTypes
-  extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonPropTypes extends ButtonHTMLAttributes<HTMLButtonElement> {
   onClick: () => void;
   name: string;
   children: ReactNode;
